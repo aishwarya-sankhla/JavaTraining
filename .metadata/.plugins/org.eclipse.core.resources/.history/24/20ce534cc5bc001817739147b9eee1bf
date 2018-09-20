@@ -1,0 +1,10 @@
+import java.util.HashMap;
+import java.util.TreeSet;
+
+public class Hospital {
+	private String hospitalName;
+	
+	HashMap<Doctor, TreeSet<Patient>> appointment = new HashMap<>();
+	
+	
+}
