@@ -1,0 +1,32 @@
+package com.training;
+
+import java.util.List;
+
+public class CollectionApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Employee emp1 = new Employee(19);
+			Employee emp2 = new Employee(20);
+			Employee emp3 = new Employee(22);
+			
+			EmployeeService elist = new EmployeeService();
+			elist.add(emp1);
+			elist.add(emp2);
+			elist.add(emp3);
+			
+			List<Employee> serv = elist.findAll();
+			
+			serv.forEach(System.out::println);
+			
+		} catch (RangeCheck e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.training;
+
+public class ExceptionHandling {
+
+	public static void main(String[] args) {
+		try{
+			int age = Integer.parseInt(args[0]);
+			double markscode = 450.00;
+			double average = markscode/0;
+			System.out.println(age);
+			System.out.println(average);
+		}
+		catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+}

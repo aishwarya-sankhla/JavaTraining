@@ -1,0 +1,31 @@
+package com.training;
+
+import java.util.List;
+
+public class CollectionApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			Employee emp1 = new Employee(19,1);
+			Employee emp2 = new Employee(20,2);
+			Employee emp3 = new Employee(22,3);
+			
+			EmployeeService elist = new EmployeeService();
+			elist.add(emp1,emp2,emp3);
+			
+			//List<Employee> serv = elist.findAll();
+			
+			List<Employee> serv = elist.SortById();
+			serv.forEach(System.out::println);
+			
+		} catch (RangeCheck e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+
+}

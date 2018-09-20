@@ -1,0 +1,15 @@
+import java.util.List;
+
+import com.training.Employee;
+
+
+public class Department {
+	List<Student> stuList;
+	
+	public boolean add(Student stu){
+		return stuList.add(stu);
+	}
+	public List<Student> findAll(){
+		return this.stuList;
+	}
+}

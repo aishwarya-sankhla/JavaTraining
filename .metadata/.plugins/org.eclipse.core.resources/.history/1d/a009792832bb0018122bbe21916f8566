@@ -1,0 +1,8 @@
+package com.training.domains;
+import com.training.ifaces.*;
+
+public class QuoteManager {
+	public Automobile getModel(int ch){
+		return null;
+	}
+}

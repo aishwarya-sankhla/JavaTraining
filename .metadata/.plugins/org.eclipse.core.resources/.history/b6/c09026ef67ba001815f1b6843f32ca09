@@ -1,0 +1,13 @@
+package com.training;
+
+public class BloodDonorApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BloodDonor donor =new BloodDonor();
+		
+		System.out.println(donor.getAge());
+		System.out.println(donor.getDonorName());
+	}
+
+}

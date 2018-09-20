@@ -1,0 +1,7 @@
+package com.training;
+
+public class FirstExample {
+	public static void main(String[] args) {
+		iGreeting greeter = (name) ->{return name}
+	}
+}

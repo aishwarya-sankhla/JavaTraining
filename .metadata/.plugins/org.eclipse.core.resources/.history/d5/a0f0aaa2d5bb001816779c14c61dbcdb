@@ -1,0 +1,14 @@
+package com.training;
+
+public class Address {
+	private String Address1;
+	private String Address2;
+	private long pincode;
+	public Address(String address1, String address2, long pincode) {
+		super();
+		Address1 = address1;
+		Address2 = address2;
+		this.pincode = pincode;
+	}
+	
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.training.BloodDonor"/>
+<fullyQualifiedTypeName name="com.training.Doctor"/>
+<fullyQualifiedTypeName name="com.training.domains.Book"/>
+<fullyQualifiedTypeName name="com.training.domains.BookManager"/>
+<fullyQualifiedTypeName name="com.training.domains.VehicleInsurance"/>
+<fullyQualifiedTypeName name="com.training.domains.Insurance"/>
+<fullyQualifiedTypeName name="com.training.domains.LifeInsurance"/>
+<fullyQualifiedTypeName name="com.training.domains.QuoteManager"/>
+<fullyQualifiedTypeName name="com.training.ifaces.Automobile"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.training.domains.Tractor"/>
+<fullyQualifiedTypeName name="com.training.domains.UpdatedQuoteManager"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.training.Address"/>
+<fullyQualifiedTypeName name="com.training.Customer"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.training.RangeCheck"/>
+<fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+<fullyQualifiedTypeName name="com.training.Filter"/>
+<fullyQualifiedTypeName name="com.training.Outer"/>
+<fullyQualifiedTypeName name="com.training.iface.iGreeting"/>
+<fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+<fullyQualifiedTypeName name="com.training.Converter"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.training.Employee"/>
+<fullyQualifiedTypeName name="com.training.EmployeeService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,9 @@
+package com.training;
+
+import com.training.iface.iGreeting;
+
+public class FirstExample {
+	public static void main(String[] args) {
+		iGreeting greeter = (name) ->{return name.toUpperCase();};
+	}
+}

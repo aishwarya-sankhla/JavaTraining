@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Department {
+	List<Student> stuList;
+	
+	public Department() {
+		super();
+		stuList = new ArrayList<>();
+		// TODO Auto-generated constructor stub
+	}
+	public boolean add(Student stu){
+		return stuList.add(stu);
+	}
+	public List<Student> findAll(){
+		return this.stuList;
+	}
+}

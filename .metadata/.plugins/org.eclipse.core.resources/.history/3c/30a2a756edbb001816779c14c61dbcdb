@@ -1,0 +1,30 @@
+package com.training;
+
+public class Employee {
+	private int age;
+
+	public Employee() {
+		super();
+		try{
+			if(age<18 || age>50 )
+		}
+		catch(Ran){
+			
+		}
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employee(int age) {
+		super();
+		this.age = age;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+}

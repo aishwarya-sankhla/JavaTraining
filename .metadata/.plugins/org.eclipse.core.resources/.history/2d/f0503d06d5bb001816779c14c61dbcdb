@@ -1,0 +1,8 @@
+package com.training;
+
+public class Customer {
+	private long CustomerId;
+	private String CustomerName;
+	private Address CustomerAdd;
+	private long CustomerPhone;
+}

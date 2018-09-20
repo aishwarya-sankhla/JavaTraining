@@ -1,0 +1,22 @@
+package com.training.domains;
+import com.training.ifaces.*;
+
+public class QuoteManager {
+	
+	public void printQuote(Automobile polyAuto){
+		System.out.println(polyAuto.getModel());
+		System.out.println(polyAuto.getColor());
+		System.out.println(polyAuto.getPrice());
+	}
+	
+	public Automobile getModel(int key){
+		switch(key){
+		case 1:
+			return new MarutiCar();
+		case 2:
+			return new BajajBike();
+		default:
+			return null;
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package com.training;
+
+public class Doctor {
+	private String doctorName;
+	private String department;
+	private int doctorId;
+	private String Qaulification;
+	
+	public void writePrescriptions(){}
+	public void appointments(){}
+	public void diagnosis(){}
+}

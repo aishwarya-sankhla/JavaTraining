@@ -1,0 +1,8 @@
+package com.training.domains;
+
+public class Book {
+	private long bookNumber;
+	private String bookName;
+	private String author;
+	private double ratePerUnit;
+}

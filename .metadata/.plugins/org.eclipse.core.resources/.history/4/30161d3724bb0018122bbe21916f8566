@@ -1,0 +1,11 @@
+package com.training.domains;
+
+public class LifeInsurance extends Insurance {
+
+	@Override
+	public double calculatePremium() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

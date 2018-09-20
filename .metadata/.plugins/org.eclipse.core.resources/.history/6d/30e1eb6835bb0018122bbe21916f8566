@@ -1,0 +1,16 @@
+package com.training.domains;
+import java.util.*;
+import com.training.ifaces.Automobile;
+
+public class Showroom {
+
+	public static void main(String[] args) {
+		QuoteManager quote =new UpdatedQuoteManager();
+		Scanner sc = new Scanner(System.in)
+		int key = sc.nextInt();
+		Automobile auto =quote.getModel(key);
+		quote.printQuote(auto);
+		sc.close();
+	}
+
+}
