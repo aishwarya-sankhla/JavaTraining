@@ -12,7 +12,6 @@
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="com.training.domains.Tractor"/>
 <fullyQualifiedTypeName name="com.training.domains.UpdatedQuoteManager"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.training.Address"/>
 <fullyQualifiedTypeName name="com.training.Customer"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
@@ -27,12 +26,21 @@
 <fullyQualifiedTypeName name="com.training.iface.iGreeting"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 <fullyQualifiedTypeName name="com.training.Converter"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="com.training.Employee"/>
 <fullyQualifiedTypeName name="com.training.EmployeeService"/>
+<fullyQualifiedTypeName name="Student"/>
+<fullyQualifiedTypeName name="University"/>
+<fullyQualifiedTypeName name="Department"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.training.EmployeeNameComparator"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="com.training.Employee"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="com.training.EmployeeAgeComparator"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

@@ -21,6 +21,11 @@ public class Employee implements Comparable<Employee>{
 		
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [age=" + age + ", id=" + id + ", name=" + name + "]";
+	}
+
 	public Employee(int age, int id, String name) {
 		super();
 		this.age = age;
