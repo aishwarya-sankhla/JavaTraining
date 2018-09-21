@@ -13,14 +13,6 @@ public class Hospital {
 		super();
 		
 	}
-	
-	public boolean add(Doctor d){
-		return docList.add(d);
-	}
-	public List<Doctor> findAll(){
-		return this.docList;
-	}
-	
 	public String getHospitalName() {
 		return hospitalName;
 	}
