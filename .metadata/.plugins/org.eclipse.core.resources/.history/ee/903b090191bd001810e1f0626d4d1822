@@ -1,0 +1,22 @@
+package com.training;
+
+public class Calculate implements Runnable {
+
+	private int count;
+	
+	public Calculate(int count) {
+		super();
+		this.count = count;
+	}
+
+	@Override
+	public void run() {
+		
+		long fact=1;
+		for(int i=count;i>0;i--){
+			fact=fact*i;
+		}
+		System.out.println(fact);
+	}
+
+}
