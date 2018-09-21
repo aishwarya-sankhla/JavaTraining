@@ -82,7 +82,7 @@ public class Customer implements Serializable {
 	private void readObject(ObjectInputStream in){
 		try {
 			in.defaultReadObject();
-			this.CustomerPhone = (long)in.readObject();
+			long CustomerPhone = (long)in.readObject();
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
