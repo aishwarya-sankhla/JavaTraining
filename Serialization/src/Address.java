@@ -1,6 +1,7 @@
 import java.io.Serializable;
 
 public class Address implements Serializable{
+
 	private String Address1;
 	private String Address2;
 	private long pincode;

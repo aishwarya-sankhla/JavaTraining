@@ -58,6 +58,13 @@ public class Customer implements Serializable {
 		// TODO Auto-generated method stub
 		return super.hashCode();
 	}
+	public Customer(long customerId, String customerName, long customerPhone) {
+		super();
+		CustomerId = customerId;
+		CustomerName = customerName;
+		CustomerPhone = customerPhone;
+	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if(this == obj)
@@ -90,6 +97,11 @@ public class Customer implements Serializable {
 		}
 	}
 	
+	@Override
+	public String toString() {
+		return  CustomerId + ","+ CustomerName + "," +CustomerPhone;
+	}
+
 	private void writeObject(ObjectOutputStream out) {
 		try {
 			out.defaultWriteObject();
