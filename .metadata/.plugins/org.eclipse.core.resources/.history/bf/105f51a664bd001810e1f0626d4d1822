@@ -1,0 +1,9 @@
+import java.io.*;
+
+public class ObjectHandling {
+	
+	public boolean saveObject(Object obj){
+		boolean status = false;
+		return status;
+	}
+}

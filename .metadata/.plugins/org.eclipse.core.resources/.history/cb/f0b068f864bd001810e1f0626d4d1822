@@ -1,0 +1,19 @@
+import java.io.*;
+
+public class ObjectHandling {
+	
+	public boolean saveObject(Object obj){
+		boolean status = false;
+		ObjectOutputStream outStream = null;
+		try {
+			
+			outStream = new ObjectOutputStream(new FileOutputStream(new File("cutomer.ser")));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		finally {
+			
+		}
+		return status;
+	}
+}

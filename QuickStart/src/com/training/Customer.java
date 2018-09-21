@@ -1,5 +1,7 @@
 package com.training;
 
+
+
 public class Customer {
 	private long CustomerId;
 	private String CustomerName;

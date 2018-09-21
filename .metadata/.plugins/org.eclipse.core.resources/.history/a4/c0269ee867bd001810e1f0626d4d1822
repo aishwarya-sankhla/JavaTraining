@@ -1,0 +1,50 @@
+import java.io.*;
+
+public class ObjectHandling {
+	
+	public boolean saveObject(Object obj){
+		boolean status = false;
+		ObjectOutputStream outStream = null;
+		try {
+			
+			outStream = new ObjectOutputStream(new FileOutputStream(new File("cutomer.ser")));
+			
+			outStream.writeObject(obj);
+			status = true;
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		finally {
+			try {
+				outStream.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return status;
+	}
+	
+	public boolean loadObject(){
+		boolean status = false;
+		ObjectInputStream inStream = null;
+		try {
+			
+			inStream = new ObjectInputStream(new FileInputStream(new File("cutomer.ser")));
+			
+			inStream.readObject();
+			status = true;
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		finally {
+			try {
+				inStream.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return status;
+	}
+}
