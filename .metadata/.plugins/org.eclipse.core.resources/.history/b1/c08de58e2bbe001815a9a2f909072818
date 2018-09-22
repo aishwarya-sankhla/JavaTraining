@@ -1,0 +1,14 @@
+package com.training;
+
+public class Fan extends Item{
+
+	public Fan() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Fan(String itemName, float itemPrice, int quantity) {
+		super(itemName, itemPrice, quantity);
+	}
+	
+}

@@ -1,0 +1,15 @@
+package com.training;
+
+import java.util.*;
+
+public class RentalHandling {
+	
+	List<Item> itemList;
+	public RentalHandling() {
+		super();
+		 
+	}
+	
+	
+	
+}

@@ -1,0 +1,15 @@
+package com.training;
+
+import java.util.HashSet;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		IoHandling handle = new IoHandling();
+		
+		HashSet<Item> items = new HashSet<>();
+		
+	}
+
+}

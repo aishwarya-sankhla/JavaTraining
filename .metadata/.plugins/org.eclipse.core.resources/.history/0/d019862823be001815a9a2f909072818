@@ -1,0 +1,5 @@
+package com.training;
+
+public class Fan extends Item{
+	itemName = "Fan";
+}

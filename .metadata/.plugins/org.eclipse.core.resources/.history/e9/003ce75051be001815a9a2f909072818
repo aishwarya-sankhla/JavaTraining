@@ -1,0 +1,35 @@
+package com.training;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CreateBill bill = new CreateBill();
+		HashSet<Item> custItems = new HashSet<>();
+		
+		Customer c1 = new Customer(101, "Sam");
+		Customer c2 = new Customer(102, "John");
+//		HashMap<Customer, HashSet<Item>> c1_bill = new HashMap<>();
+		Crud crud = new Crud();
+		//Customer items are orpat,maruti,chair
+			crud.insertIntoBillHandler( custItems,7,"maruti");
+			crud.insertIntoBillHandler(custItems,4,"chair");
+			crud.insertIntoBillHandler( custItems,8,"orpat");
+			crud.insertIntoBillHandler(custItems,9,"pan");
+			
+			c1.setC_bill(bill.makeBill(c1,custItems));
+			
+//		
+		HashSet<Item> itemList=c1.getC_bill().get(c1);
+		for(Item it:itemList){
+			System.out.println(it.getItemName()+" "+it.getDuration()+" "+it.getQuantity());
+		}
+
+		
+	}
+
+}

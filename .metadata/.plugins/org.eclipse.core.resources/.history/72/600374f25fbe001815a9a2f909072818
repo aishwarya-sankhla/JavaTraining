@@ -1,0 +1,14 @@
+Customer Name: Sam
+Item Name Duration Quantity Price Item-Total
+chair 4 10 10.0 100.0
+chair 6 6 10.0 59.4
+pan 9 1 4.0 3.96
+orpat 8 3 12.0 35.64
+maruti 7 5 100.0 495.0
+Grand Total:694.0
+
+Customer Name: John
+Item Name Duration Quantity Price Item-Total
+orpat 4 3 12.0 36.0
+Grand Total:36.0
+

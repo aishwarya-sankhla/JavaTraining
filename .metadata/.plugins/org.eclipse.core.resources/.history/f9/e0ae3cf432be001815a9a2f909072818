@@ -1,0 +1,34 @@
+package com.training;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class CreateBill implements Billable {
+
+	HashMap<Customer, HashSet<Item>> billStuff;
+	
+	public CreateBill() {
+		super();
+		billStuff = new HashMap<>();
+	}
+
+	@Override
+	public HashMap<Customer, HashSet<Item>> makeBill(Customer cust, HashSet<Item> items) {
+		billStuff.put(cust, items);
+		return null;
+	}
+
+	@Override
+	public HashMap<Customer, HashSet<Item>> makeBill(Customer cust, Item item) {
+				
+			HashSet<Item> itemSet;
+			itemSet= billStuff.get(cust);
+			if(itemSet.equals(null)){
+				itemSet = new HashSet<>();	
+			}
+			itemSet.add(item);
+			billStuff.put(cust, itemSet);
+		return null;
+	}
+
+}

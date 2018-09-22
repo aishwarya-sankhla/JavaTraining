@@ -1,0 +1,25 @@
+package com.training;
+
+import java.util.HashSet;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		IoHandling handle = new IoHandling();
+		CreateBill bill = new CreateBill();
+		
+		HashSet<Item> items = handle.readFromText();
+		for(Item it:items){
+			System.out.println(it.getItemName());
+		}
+		
+		Customer c1 = new Customer(101, "Sam");
+		for(Item it : items){
+			if(it.getItemName()=="chair");
+				bill.billStuff(c1,it);
+		}
+		
+	}
+
+}

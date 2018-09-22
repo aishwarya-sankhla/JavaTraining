@@ -1,0 +1,58 @@
+package com.training;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		IoHandling handle = new IoHandling();
+		CreateBill bill = new CreateBill();
+		HashSet<Item> custItems = new HashSet<>();
+		
+		HashMap<String,Item> items = handle.readFromText();
+		Customer c1 = new Customer(101, "Sam");
+		HashMap<Customer, HashSet<Item>> c1_bill = new HashMap<>();
+		Crud crud = new Crud();
+		//Customer items are orpat,maruti,chair
+		Iterator<String> itr= items.keySet().iterator();
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+			
+		}
+	
+			if(items.containsKey("chair")){
+				Item ch = items.get("chair");
+				ch.setDuration(2);
+				ch.setQuantity(ch.getQuantity()+5);
+				custItems.add(ch);
+				c1_bill = bill.makeBill(c1,custItems);
+
+			}
+			
+
+			crud.insertIntoBillHandler(items,custItems,4,"chair");
+			if(items.containsKey("maruti")){
+				Item car = items.get("maruti");
+				car.setDuration(3);
+				car.setQuantity(1);
+				custItems.add(car);
+				c1_bill=bill.makeBill(c1,items.get("maruti"));
+
+			}
+			
+		
+			crud.insertIntoBillHandler(items, custItems,7,"maruti");
+			
+//		
+		HashSet<Item> itemList=c1_bill.get(c1);
+		for(Item it:itemList){
+			System.out.println(it.getItemName()+" "+it.getDuration()+" "+it.getQuantity());
+		}
+
+		
+	}
+
+}

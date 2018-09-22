@@ -1,0 +1,48 @@
+package com.training;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Crud {
+	
+	public Crud() {
+		super();
+		HashMap<String,Item> items = handle.readFromText();
+	}
+
+	public void insertIntoBillHandler(HashMap<String,Item> items,HashSet<Item> custItems){
+	//adding
+	int duration_1 = 4;
+	String key_1= "chair";
+	if(items.containsKey(key_1)){
+
+		switch (key_1) {
+		case "chair":
+			Furniture furniture= new Furniture();
+			Item ch = items.get("chair");
+			
+			if(custItems.contains(ch)){
+				
+				if(ch.getDuration()!=duration_1){
+
+					furniture.setItemName(ch.getItemName());
+					furniture.setItemPrice(ch.getItemPrice());
+					furniture.setQuantity(4);
+					furniture.setDuration(11);
+					System.out.println(custItems.add(furniture));
+				
+				}
+				else{
+					custItems.add(ch);
+				}	
+			}
+			break;
+
+		default:
+			break;
+		}
+		
+	}
+	}
+}
+

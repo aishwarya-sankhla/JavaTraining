@@ -1,0 +1,39 @@
+package com.training;
+
+public abstract class Item {
+	private String itemName;
+	private float itemPrice;
+	private int quantity;
+	
+	public Item() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Item(String itemName, float itemPrice, int quantity) {
+		super();
+		this.itemName = itemName;
+		this.itemPrice = itemPrice;
+		this.quantity = quantity;
+	}
+
+	public String getItemName() {
+		return itemName;
+	}
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+	public float getItemPrice() {
+		return itemPrice;
+	}
+	public void setItemPrice(float itemPrice) {
+		this.itemPrice = itemPrice;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	
+}

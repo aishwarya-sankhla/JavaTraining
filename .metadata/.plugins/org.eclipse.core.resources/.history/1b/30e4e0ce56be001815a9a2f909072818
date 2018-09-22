@@ -1,0 +1,125 @@
+package com.training;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Crud {
+	HashMap<String,Item> items;
+	public Crud() {
+		super();
+		IoHandling handle = new IoHandling();
+		items= handle.readFromText();
+	}
+
+	public void insertIntoBillHandler(HashSet<Item> custItems,int duration_1,String key_1,int quantity_1){
+	//adding
+	if(items.containsKey(key_1)){
+
+		switch (key_1) {
+		case "chair":
+			Furniture furniture= new Furniture();
+			Item ch = items.get("chair");
+			
+			if(custItems.contains(ch)){
+				
+				if(ch.getDuration()!=duration_1){
+					
+					furniture.setItemName(ch.getItemName());
+					furniture.setItemPrice(ch.getItemPrice());
+					furniture.setQuantity(quantity_1);
+					furniture.setDuration(duration_1);
+					System.out.println(custItems.add(furniture));
+				}
+				else{
+					for(Item i:custItems){
+						int sum=i.getQuantity()+quantity_1;
+						if(i.getItemName().equals("chair"));
+						System.out.println(sum);
+						i.setQuantity(i.getQuantity()+quantity_1);
+						custItems.add(i);
+					}
+					
+				}
+			}
+			else{
+				for(Item i:custItems){
+					int sum=i.getQuantity()+quantity_1;
+					if(i.getItemName().equals("chair"));
+					System.out.println(sum);
+					i.setQuantity(i.getQuantity()+quantity_1);
+					custItems.add(i);
+				}
+//				System.out.println("entered");
+//				furniture.setItemName(ch.getItemName());
+//				furniture.setItemPrice(ch.getItemPrice());
+//				int sum=ch.getQuantity()+quantity_1;
+//				System.out.println("Sum:"+sum);
+//				furniture.setQuantity(ch.getQuantity()+quantity_1);
+//				furniture.setDuration(duration_1);
+//				System.out.println(custItems.add(furniture));
+			}
+			break;
+		case "maruti":
+			Car carObj= new Car();
+			Item car = items.get("maruti");
+			if(custItems.contains(car)){
+				if(car.getDuration()!=duration_1){
+				
+					carObj.setItemName(car.getItemName());
+					carObj.setItemPrice(car.getItemPrice());
+					carObj.setQuantity(4);
+					carObj.setDuration(duration_1);
+					System.out.println(custItems.add(carObj));
+				
+				}
+				else
+					custItems.add(car);
+			}
+			else
+				custItems.add(car);
+			break;
+		case "orpat":
+			Fan fanObj= new Fan();
+			Item fan = items.get("orpat");
+			if(custItems.contains(fan)){
+				if(fan.getDuration()!=duration_1){
+				
+					fanObj.setItemName(fan.getItemName());
+					fanObj.setItemPrice(fan.getItemPrice());
+					fanObj.setQuantity(4);
+					fanObj.setDuration(duration_1);
+					System.out.println(custItems.add(fanObj));
+				
+				}
+				else
+					custItems.add(fan);
+			}
+			else
+				custItems.add(fan);
+			break;
+	case "pan":
+		Utensils utObj= new Utensils();
+		Item ut = items.get("pan");
+		if(custItems.contains(ut)){
+			if(ut.getDuration()!=duration_1){
+			
+				utObj.setItemName(ut.getItemName());
+				utObj.setItemPrice(ut.getItemPrice());
+				utObj.setQuantity(4);
+				utObj.setDuration(duration_1);
+				System.out.println(custItems.add(utObj));
+			
+			}
+			else
+				custItems.add(ut);
+		}
+		else
+			custItems.add(ut);
+		break;
+	default:
+		break;
+		}
+		}
+	}
+}
+

@@ -1,0 +1,7 @@
+package com.training;
+
+public class Item {
+	private String itemName;
+	private float itemPrice;
+	private int quantity;
+}

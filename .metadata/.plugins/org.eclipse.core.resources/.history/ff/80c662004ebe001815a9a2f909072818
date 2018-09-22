@@ -1,0 +1,65 @@
+package com.training;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Crud {
+	
+	public Crud() {
+		super();
+		
+	}
+
+	public void insertIntoBillHandler(HashMap<String,Item> items,HashSet<Item> custItems,int duration_1,String key_1){
+	//adding
+	if(items.containsKey(key_1)){
+
+		switch (key_1) {
+		case "chair":
+			Furniture furniture= new Furniture();
+			Item ch = items.get("chair");
+			
+			if(custItems.contains(ch)){
+				
+				if(ch.getDuration()!=duration_1){
+
+					furniture.setItemName(ch.getItemName());
+					furniture.setItemPrice(ch.getItemPrice());
+					furniture.setQuantity(3);
+					furniture.setDuration(duration_1);
+					System.out.println(custItems.add(furniture));
+				}
+				else
+					custItems.add(ch);	
+			}
+			break;
+		case "maruti":
+			Car carObj= new Car();
+			Item car = items.get("maruti");
+			System.out.println("Entered switch");
+			if(custItems.contains(car)){
+				if(car.getDuration()!=duration_1){
+				
+					carObj.setItemName(car.getItemName());
+					carObj.setItemPrice(car.getItemPrice());
+					carObj.setQuantity(4);
+					carObj.setDuration(duration_1);
+					System.out.println(custItems.add(carObj));
+				
+				}
+				else
+					custItems.add(car);
+			}
+			break;
+		default:
+			break;
+		}
+		
+	}
+	}
+	
+	public void insertIntoBillHandler(HashMap<String,Item> items,Item custItem){
+		
+	}
+}
+

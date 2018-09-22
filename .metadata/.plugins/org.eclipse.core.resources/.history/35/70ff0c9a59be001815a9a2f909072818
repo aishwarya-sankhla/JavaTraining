@@ -1,0 +1,35 @@
+package com.training;
+
+import java.util.HashSet;
+
+public class Application {
+
+	public static void main(String[] args) {
+		CreateBill bill = new CreateBill();
+		HashSet<Item> custItems = new HashSet<>();
+		
+		Customer c1 = new Customer(101, "Sam");
+		Customer c2 = new Customer(102, "John");
+
+		Crud crud = new Crud();
+		//Customer items are orpat,maruti,chair
+			crud.insertIntoBillHandler( custItems,7,"maruti",2);
+			crud.insertIntoBillHandler( custItems,7,"maruti",3);
+			crud.insertIntoBillHandler(custItems,4,"chair",4);
+			crud.insertIntoBillHandler( custItems,8,"orpat",3);
+			crud.insertIntoBillHandler(custItems,9,"pan",1);
+			crud.insertIntoBillHandler( custItems,4,"chair",6);
+			crud.insertIntoBillHandler( custItems,6,"chair",6);
+			
+			c1.setC_bill(bill.makeBill(c1,custItems));
+			
+		
+		HashSet<Item> itemList=c1.getC_bill().get(c1);
+		for(Item it:itemList){
+			System.out.println(it.getItemName()+" "+it.getDuration()+" "+it.getQuantity());
+		}
+
+		
+	}
+
+}
