@@ -1,0 +1,43 @@
+package com.training;
+
+import java.util.List;
+
+import com.training.dao.impl.MovieDAOimpl;
+import com.training.entity.Movie;
+import com.training.entity.MovieDAO;
+import com.training.utils.DbConnection;
+
+public class Application {
+
+	public static void main(String[] args) {
+		System.out.println(DbConnection.getOracleConnection());
+		
+		MovieDAO dao = new MovieDAOimpl();
+		Movie gold = new Movie(101,"Gold","Reema","Historial",4.8);
+		int rowAdded= dao.addMovie(gold);
+		
+		int key =2;
+		
+		switch (key) {
+		case 1:
+			Movie inferno = new Movie(102,"Inferno","Random","Drama",5.0);
+			dao.addMovie(inferno);
+			rowAdded++;
+			System.out.println(rowAdded +":=Row added");
+			break;
+			
+		case 2:
+			List<Movie> movieList = dao.findAll();
+			movieList.forEach(System.out::println);
+		default:
+			break;
+		}
+		
+		
+		System.out.println(rowAdded+":= Row added");
+		
+		MovieDAOimpl obj = (MovieDAOimpl)dao;
+		obj.closeConnection();
+	}
+
+}

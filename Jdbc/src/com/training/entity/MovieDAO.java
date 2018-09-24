@@ -7,4 +7,5 @@ public interface MovieDAO {
 	public List<Movie> findAll();
 	public int remove(long movieId);
 	public int updateRating(long movieId,double currentRating);
+	public Movie findByPrimaryKey(long movieId);
 }
