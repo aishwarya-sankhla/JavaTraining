@@ -1,0 +1,29 @@
+package com.training.dao.impl;
+
+import java.util.List;
+
+import com.training.entity.Course;
+import com.training.entity.CourseDao;
+import com.training.entity.Student;
+
+public class CourseDaoImpl implements CourseDao {
+
+	@Override
+	public int addCourse(Course course) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int addStudent(Student student) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Student> displayStudentsByCourse(int courseId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

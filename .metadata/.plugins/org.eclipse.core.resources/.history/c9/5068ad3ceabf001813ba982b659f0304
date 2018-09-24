@@ -1,0 +1,9 @@
+package com.training.entity;
+
+import java.util.List;
+
+public interface CourseDao {
+	public int addCourse(Course course);
+	public int addStudent(Student student);
+	public List<Student> displayStudentsByCourse(int courseId);
+}

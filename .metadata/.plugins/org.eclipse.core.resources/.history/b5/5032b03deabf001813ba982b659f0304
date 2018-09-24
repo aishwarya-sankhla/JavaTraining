@@ -1,0 +1,40 @@
+package com.training.dao.impl;
+
+import java.sql.*;
+import java.util.List;
+
+import com.training.entity.Course;
+import com.training.entity.CourseDao;
+import com.training.entity.Student;
+import com.training.utils.DbConnection;
+
+public class CourseDaoImpl implements CourseDao {
+	
+	private Connection con;
+	
+	
+	public CourseDaoImpl() {
+		super();
+		con=DbConnection.getOracleConnection();
+	}
+
+	@Override
+	public int addCourse(Course course) {
+		String sql = "insert into course values(?,?)";
+		PreparedStatement pstmt = null;
+		return 0;
+	}
+
+	@Override
+	public int addStudent(Student student) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Student> displayStudentsByCourse(int courseId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
