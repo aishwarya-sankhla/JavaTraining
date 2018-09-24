@@ -1,0 +1,10 @@
+package com.training.utils;
+import java.sql.*;
+
+public class DbConnection {
+	public static Connection getOracleConnection() {
+		Connection com = null;
+		
+		return com;
+	}
+}

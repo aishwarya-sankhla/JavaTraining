@@ -1,0 +1,6 @@
+package com.training.utils;
+import java.sql.*;
+
+public class DbConnection {
+
+}
