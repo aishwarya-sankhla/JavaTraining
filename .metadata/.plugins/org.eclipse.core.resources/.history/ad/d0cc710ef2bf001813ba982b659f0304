@@ -10,20 +10,19 @@ public class Crud {
 		IoHandling handle = new IoHandling();
 		items= handle.readFromText();
 	}
-	
+
 	public void insertIntoBillHandler(Customer customer,int duration_1,String key_1,int quantity_1){
 	//adding
 		HashSet<Item> custItems=customer.custItems;
-		//Checks if the item is available in items.txt and adds
 	if(items.containsKey(key_1)){
 
 		switch (key_1) {
 		case "chair":
 			Furniture furniture= new Furniture();
 			Item ch = items.get("chair");
-			//Checks if the Customer list had the item
+			
 			if(custItems.contains(ch)){
-				//if the duration is not same another entry is created of the same item
+				
 				if(ch.getDuration()!=duration_1){
 					
 					furniture.setItemName(ch.getItemName());
@@ -34,8 +33,8 @@ public class Crud {
 				}
 				
 			}
-			//If the duration is same the quantity is incremented
 			else{
+					System.out.println("else part");
 					for(Item i:custItems){
 						int sum=i.getQuantity()+quantity_1;
 						System.out.println("in item");
@@ -45,7 +44,6 @@ public class Crud {
 							custItems.add(i);
 						}		
 				}
-			//If the item is not present in customer list ,a new entry is created
 				System.out.println("entered");
 				furniture.setItemName(ch.getItemName());
 				furniture.setItemPrice(ch.getItemPrice());

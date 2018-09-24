@@ -11,16 +11,14 @@ public class CreateBill implements Billable {
 		super();
 		billStuff = new HashMap<>();
 	}
-	
-	//Adds items into the HashMap
+
 	@Override
 	public HashMap<Customer, HashSet<Item>> makeBill(Customer cust) {
 		HashSet<Item> items=cust.custItems;
 		billStuff.put(cust, items);
 		return billStuff;
 	}
-	
-	//Overloaded Function
+
 	@Override
 	public HashMap<Customer, HashSet<Item>> makeBill(Customer cust, Item item) {
 				

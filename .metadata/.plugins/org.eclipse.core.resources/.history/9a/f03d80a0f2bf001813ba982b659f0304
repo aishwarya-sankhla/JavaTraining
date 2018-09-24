@@ -20,19 +20,19 @@ public class CreateBill implements Billable {
 		return billStuff;
 	}
 	
-	//Overloaded Function
-	@Override
-	public HashMap<Customer, HashSet<Item>> makeBill(Customer cust, Item item) {
-				
-			HashSet<Item> itemSet;
-			itemSet= billStuff.get(cust);
-			if(itemSet==null){
-				itemSet = new HashSet<>();	
-			}
-			itemSet.add(item);
-			billStuff.put(cust, itemSet);
-		return billStuff;
-	}
+//Overloaded Function
+//	@Override
+//	public HashMap<Customer, HashSet<Item>> makeBill(Customer cust, Item item) {
+//				
+//			HashSet<Item> itemSet;
+//			itemSet= billStuff.get(cust);
+//			if(itemSet==null){
+//				itemSet = new HashSet<>();	
+//			}
+//			itemSet.add(item);
+//			billStuff.put(cust, itemSet);
+//		return billStuff;
+//	}
 	
 
 	public static float calculateTotal(int duration,float price,int quantity){

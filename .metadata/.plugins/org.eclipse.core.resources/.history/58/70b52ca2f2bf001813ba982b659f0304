@@ -23,7 +23,6 @@ public class Application {
 			crud.insertIntoBillHandler(c1,6,"chair",6);
 			
 			//Makes the Hashmap with customer and list of items
-			//makeBill returns a HashMap that is stored within customer
 			c1.setC_bill(bill.makeBill(c1));
 			
 			crud.insertIntoBillHandler(c2, 4, "orpat", 3);
