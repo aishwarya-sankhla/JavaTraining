@@ -1,0 +1,9 @@
+package com.training.domains;
+
+import java.util.List;
+
+public class ManageProducts {
+	public void printProductByCategory(String category,List<Product> prdList){
+		
+	}
+}

@@ -1,8 +1,0 @@
-package com.training;
-
-public class BloodDonor {
-	private String donorName;
-	private int age;
-	private String bloodGroup;
-
-}
