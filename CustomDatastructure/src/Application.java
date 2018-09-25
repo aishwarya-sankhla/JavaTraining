@@ -14,5 +14,11 @@ public class Application {
 		System.out.println(obj.add(6));
 		System.out.println(obj.add(100));
 		System.out.println(obj.findById(10));
+		
+		obj.remove(1);
+		obj.forEach(System.out::println);
+		
+//		while (obj.iterator().hasNext())
+//			System.out.println(obj.iterator().next());
 	}
 }
