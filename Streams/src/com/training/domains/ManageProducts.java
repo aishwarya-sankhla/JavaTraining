@@ -1,6 +1,6 @@
 package com.training.domains;
 
-import java.util.*;
+import java.util.*;import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 
@@ -18,7 +18,7 @@ public class ManageProducts {
 	}
 	
 	public void printCategory(List<Product> prdList){
-		Set<String> category = (Set) prdList.stream().map(product ->product.getCategory()).distinct().collect(Collectors.toSet());
+		Set<String> category = prdList.stream().map(product ->product.getCategory()).distinct().collect(Collectors.toSet());
 		category.forEach(System.out::println);
 	}
 	
@@ -50,5 +50,24 @@ public class ManageProducts {
 		long prdCount = prdList.stream().count();
 		
 		return prdCount;
+	}
+	
+	public Map<String, Double> getPriceList(List<Product> prdList){
+		//Filters based on Category
+		//Map<String, Double> priceList = prdList.stream().filter(prd -> prd.getCategory().equals("fridge")).collect(Collectors.toMap(Product::getProductName, Product::getRatePerUnit));
+		Map<String, Double> priceList = prdList.stream().collect(Collectors.toMap(Product::getProductName, Product::getRatePerUnit));
+		return priceList;
+	}
+	
+	public double maxAmount(List<Product> prdList){
+		Optional<Double> result = prdList.parallelStream().map(e -> e.getRatePerUnit()).reduce((p1,p2) -> p1>p2?p1:p2);
+		
+		return result.get().doubleValue();
+	}
+	
+	public double totalAmount(List<Product> prdList){
+		Double result = prdList.parallelStream().map(p -> p.getRatePerUnit()).reduce(0.0, (p1,p2)->{p1 +=p2; return p1;});
+		
+		return result;
 	}
 }

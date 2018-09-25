@@ -1,7 +1,10 @@
 package com.training.domains;
 
+import java.security.KeyStore.Entry;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class Application {
 
@@ -35,5 +38,18 @@ public class Application {
 //		System.out.println("Product Count:"+mgr.countProducts(prdList));
 		
 		System.out.println(mgr.findMinMax(prdList,true));
+		
+		Map<String, Double> priceList = mgr.getPriceList(prdList);
+		System.out.println(priceList.get("SonyTv"));
+		
+		Set<Map.Entry<String,Double>> items = priceList.entrySet();
+		
+		for(Map.Entry<String, Double> eachItem : items){
+			System.out.print(eachItem.getKey()+" ");
+			System.out.println(eachItem.getValue());
+		}
+		
+		System.out.println(mgr.maxAmount(prdList));
+		System.out.println(mgr.totalAmount(prdList));
 	}
 }

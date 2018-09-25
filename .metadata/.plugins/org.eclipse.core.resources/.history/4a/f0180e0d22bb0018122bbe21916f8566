@@ -1,5 +1,0 @@
-package com.training.domains;
-
-public abstract class Insurance {
-
-}

@@ -1,0 +1,17 @@
+package com.training;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class QuickStartTest {
+
+	@Test
+	public void testGetMessage() {
+		Quickstart obj = new Quickstart();
+		String expected ="HELLO";
+		String actual = obj.getMessage();
+		assertEquals("Get Message return should be String in Uppercase" , expected, actual);
+	}
+
+}
