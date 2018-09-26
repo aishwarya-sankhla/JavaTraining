@@ -1,5 +1,6 @@
 package com.training.custommap;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class MyMap<K,V> {
@@ -8,6 +9,7 @@ public class MyMap<K,V> {
 	private MapEntry<K, V>[] values = new MapEntry[capacity];
 	
 	public V put(K key,V value){
+		if(index<capacity) {
 			for(int i=0;i<index;i++){
 				if(values[i].getKey().equals(key)){
 					return values[i].getValue();
@@ -16,9 +18,22 @@ public class MyMap<K,V> {
 			MapEntry<K, V> mape = new MapEntry<K, V>(key, value);
 			values[index]=mape;
 			index++;
-		return null;
+			return null;
+		}
+		else {
+			ensureMap();
+			capacity = values.length;
+			MapEntry<K, V> mape = new MapEntry<K, V>(key, value);
+			values[index]=mape;
+			index++;
+			return null;
+		}
+		
 	}
 	
+	public void ensureMap() {
+		values = Arrays.copyOf(values, 2*capacity);
+	}
 	public V get(K key){
 		for(MapEntry<K,V> m:values){
 			if(m.getKey().equals(key)){
