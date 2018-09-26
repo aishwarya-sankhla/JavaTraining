@@ -1,0 +1,17 @@
+logfile=c:/logs
+
+#log4j.rootLogger=ALL,theConsoleAppender
+#log4j.appender.theConsoleAppender=org.apache.log4j.ConsoleAppender
+#log4j.appender.theConsoleAppender.layout=org.apache.log4j.PatternLayout
+#log4j.appender.theConsoleAppender.layout.ConversionPattern=%-4r[%t] %-5p %c %x - %m%n
+
+#log4j.example=ALL,theConsoleAppender
+#log4j.appender.theConsoleAppender=org.apache.log4j.ConsoleAppender
+#log4j.appender.theConsoleAppender.layout=org.apache.log4j.PatternLayout
+#log4j.appender.theConsoleAppender.layout.ConversionPattern=%-4r[%t] %-5p %c %x - %m%n
+
+log4j.rootLogger=ERROR,fileAppender
+log4j.appender.fileAppender=org.apache.log4j.FileAppender
+log4j.appender.fileAppender.File=$(logDir)/log.out
+log4j.appender.fileAppender.layout=org.apache.log4j.PatternLayout
+log4j.appender.fileAppender.layout.ConversionPattern=%d{DATE} %m%n

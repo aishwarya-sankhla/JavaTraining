@@ -1,5 +1,6 @@
 package com.training;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -25,7 +26,8 @@ public class Application {
 	
 	//Generic Method - Type 4 Consumer
 	public static void  addToList(List<? super Integer> list){
-		list.set(2,7);
+		list.add(23);
+		//list.set(1,7);
 	}
 	public static void main(String[] args) {
 		
@@ -44,7 +46,7 @@ public class Application {
 		System.out.println(age.getDigit());
 		
 	
-		List<Integer> engList = Arrays.asList(20,30,40);
+	//	List<Integer> engList = Arrays.asList(20,30,40);
 		List<Double> mathsList = Arrays.asList(20.03,30.0,40.5);
 		
 //		System.out.println(showNumber(engList));
@@ -60,6 +62,7 @@ public class Application {
 //		printList(engList);
 //		printList(studList);
 		
+		List<Integer> engList = new ArrayList<>();
 		addToList(engList);
 		printList(engList);
 //		addToList(studList);
