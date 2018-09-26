@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="QuickStartTest" project="Junit" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="com.training.QuickStartTest" time="0.0">
-    <testcase name="testCalculatediscount2" classname="com.training.QuickStartTest" time="0.0"/>
-    <testcase name="testCalculateDiscount1" classname="com.training.QuickStartTest" time="0.0"/>
-    <testcase name="testGetMessage" classname="com.training.QuickStartTest" time="0.0"/>
-  </testsuite>
-</testrun>

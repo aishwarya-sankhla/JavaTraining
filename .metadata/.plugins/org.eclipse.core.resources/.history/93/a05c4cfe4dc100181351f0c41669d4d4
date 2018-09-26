@@ -1,0 +1,17 @@
+package com.training;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		AddNumber<Double> marks = new AddNumber<>();
+		marks.setDigit(97.8);
+		
+		AddNumber<Integer> age = new AddNumber<>();
+		age.setDigit(22);
+		
+		System.out.println(marks.getDigit());
+		System.out.println(age.getDigit());
+	}
+
+}

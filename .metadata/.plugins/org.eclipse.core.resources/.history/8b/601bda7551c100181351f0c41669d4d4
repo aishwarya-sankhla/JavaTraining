@@ -1,0 +1,5 @@
+package com.training.entity;
+
+public interface MovieDAO extends DAO<T> {
+	public int updateRating(long movieId,double currentRating);
+}

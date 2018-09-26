@@ -1,0 +1,29 @@
+package com.training;
+
+public class AddNumber<T>{
+	
+	T digit;
+	T random;
+
+	public T getRandom() {
+		return random;
+	}
+
+	public void setRandom(T random) {
+		this.random = random;
+	}
+
+	public AddNumber() {
+		super();
+	}
+
+	public T getDigit() {
+		return digit;
+	}
+
+	public void setDigit(T digit) {
+		this.digit = digit;
+	}
+	
+	
+}

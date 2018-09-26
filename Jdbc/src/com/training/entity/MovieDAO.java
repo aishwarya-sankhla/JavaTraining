@@ -1,11 +1,5 @@
 package com.training.entity;
 
-import java.util.List;
-
-public interface MovieDAO {
-	public int addMovie(Movie movie);
-	public List<Movie> findAll();
-	public int remove(long movieId);
+public interface MovieDAO<T> extends DAO<T> {
 	public int updateRating(long movieId,double currentRating);
-	public Movie findByPrimaryKey(long movieId);
 }

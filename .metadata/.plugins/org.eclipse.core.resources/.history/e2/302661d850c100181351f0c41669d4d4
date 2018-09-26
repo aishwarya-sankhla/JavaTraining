@@ -1,0 +1,22 @@
+package com.training;
+
+public class Application {
+
+	public static void main(String[] args) {
+		
+		AddNumber<Double,String> marks = new AddNumber<>();
+		marks.setDigit(97.8);
+		marks.setRandom(22.5);
+		marks.addObject("Sam");
+		
+		AddNumber<Integer,String> age = new AddNumber<>();
+		age.setDigit(22);
+		
+		age.setRandom(98);
+		
+		System.out.println(marks.getDigit()+" ");
+		
+		System.out.println(age.getDigit());
+	}
+
+}

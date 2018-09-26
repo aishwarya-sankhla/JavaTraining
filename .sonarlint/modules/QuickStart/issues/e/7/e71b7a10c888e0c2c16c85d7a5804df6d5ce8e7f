@@ -1,0 +1,42 @@
+
+qsquid:S3518#"CMake sure this expression can't be zero before doing this division.(â¬¡ÖùÿÿÿÿH„RCRITICALZBUG
+qsquid:S3518	"CMake sure this expression can't be zero before doing this division.(â¬¡ÖùÿÿÿÿH…RCRITICALZBUG
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰Ê›ÎýÿÿÿÿH†RMAJORZ
+CODE_SMELL
+e
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(ôÌ¿òH‡RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(ýÛÎêHˆRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(±¸üúÿÿÿÿH‰RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(é´·øÿÿÿÿHŠRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨ûÄH‹RMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ý£¬ûÿÿÿÿHŒRMAJORZ
+CODE_SMELL
+d
+squid:S106"9Replace this use of System.out or System.err by a logger.(Çðõ"HRMAJORZ
+CODE_SMELL
+e
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ôÌ¿òHŽRMAJORZ
+CODE_SMELL
+e
+squid:S106%"9Replace this use of System.out or System.err by a logger.(ýÛÎêHRMAJORZ
+CODE_SMELL
+e
+squid:S106("9Replace this use of System.out or System.err by a logger.(Êñ×èHRMAJORZ
+CODE_SMELL
+j
+squid:S106+"9Replace this use of System.out or System.err by a logger.(ý£¬ûÿÿÿÿH‘RMAJORZ
+CODE_SMELL
+d
+squid:S106-"9Replace this use of System.out or System.err by a logger.(Çðõ"H’RMAJORZ
+CODE_SMELL

@@ -1,0 +1,32 @@
+
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(´×¾ÉùÿÿÿÿHáRMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(µîîÛùÿÿÿÿHâRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(þ™‚÷ÿÿÿÿÿHãRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ö‰¥¶HäRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨³Ù©ùÿÿÿÿHåRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(Øœ¨HæRMAJORZ
+CODE_SMELL
+’squid:S14882"`Immediately return this expression instead of assigning it to the temporary variable "prdCount".(ˆ¡ÈþÿÿÿÿHçRMINORZ
+CODE_SMELL
+squid:S1488:"aImmediately return this expression instead of assigning it to the temporary variable "priceList".(Á²ß<HèRMINORZ
+CODE_SMELL
+‹squid:S1488E"^Immediately return this expression instead of assigning it to the temporary variable "result".(ØÏ½HéRMINORZ
+CODE_SMELL
+[squid:S3655A"5Call "result.isPresent()" before accessing the value.(¦†ÆÌHêRMAJORZBUG
+Ysquid:S1612",Replace this lambda with a method reference.(Ö‰¥¶HëRMINORZ
+CODE_SMELL
+^squid:S1612",Replace this lambda with a method reference.(žåõýÿÿÿÿHìRMINORZ
+CODE_SMELL
+^squid:S1612?",Replace this lambda with a method reference.(ÓŒÇ²ûÿÿÿÿHíRMINORZ
+CODE_SMELL
+Ysquid:S1612E",Replace this lambda with a method reference.(ØÏ½HîRMINORZ
+CODE_SMELL

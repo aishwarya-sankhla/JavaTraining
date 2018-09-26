@@ -5,13 +5,14 @@ import java.util.List;
 
 import com.training.entity.Movie;
 import com.training.entity.MovieDAO;
+import com.training.entity.DAO;
 import com.training.utils.DbConnection;
 
 
 
 import java.sql.*;
 
-public class MovieDAOimpl implements MovieDAO {
+public class MovieDAOimpl implements MovieDAO<Movie> {
 
 	private Connection con;
 	
@@ -21,7 +22,7 @@ public class MovieDAOimpl implements MovieDAO {
 	}
 
 	@Override
-	public int addMovie(Movie movie) {
+	public int add(Movie movie) {
 		String sql = "insert into movieas values(?,?,?,?,?)";
 		PreparedStatement pstmt = null;
 		int rowAdded = 0;

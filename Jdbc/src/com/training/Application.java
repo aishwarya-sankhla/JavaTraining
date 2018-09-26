@@ -5,6 +5,7 @@ import java.util.List;
 import com.training.dao.impl.MovieDAOimpl;
 import com.training.entity.Movie;
 import com.training.entity.MovieDAO;
+import com.training.entity.DAO;
 import com.training.utils.DbConnection;
 
 public class Application {
@@ -12,7 +13,7 @@ public class Application {
 	public static void main(String[] args) {
 		System.out.println(DbConnection.getOracleConnection());
 		
-		MovieDAO dao = new MovieDAOimpl();
+		MovieDAO<Movie> dao = new MovieDAOimpl();
 		
 		int rowAdded=0;
 		int key =5;
@@ -20,10 +21,10 @@ public class Application {
 		switch (key) {
 		case 1:
 			Movie gold = new Movie(101,"Gold","Reema","Historial",4.8);
-			rowAdded= dao.addMovie(gold);
+			rowAdded= dao.add(gold);
 			System.out.println(rowAdded +":=Row added");
 			Movie inferno = new Movie(102,"Inferno","Random","Drama",5.0);
-			rowAdded =dao.addMovie(inferno);
+			rowAdded =dao.add(inferno);
 			
 			System.out.println(rowAdded +":=Row added");
 			break;
