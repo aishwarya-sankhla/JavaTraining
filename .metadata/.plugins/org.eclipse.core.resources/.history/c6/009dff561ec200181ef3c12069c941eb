@@ -1,0 +1,10 @@
+package com.training;
+
+import com.google.gson.Gson;
+
+public class Application {
+	
+	Gson obj = new Gson();
+	
+	
+}

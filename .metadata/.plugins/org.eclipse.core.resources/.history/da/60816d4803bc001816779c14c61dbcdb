@@ -1,6 +1,0 @@
-package com.training;
-import java.util.*;
-
-public interface EmployeeApi {
-	public boolean add(Employee emp);
-}

@@ -1,0 +1,7 @@
+package com.training;
+
+public class Movie {
+	
+	private long movieId;
+	private String movieName;
+}

@@ -1,0 +1,18 @@
+
+l
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(×°¢Î8¿‹ƒ®á,HÌRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(×°¢Î8’³Ñ­á,HÀRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(Áñ«Şúÿÿÿÿ8ù±®á,HÔRMAJORZ
+CODE_SMELL
+~squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(È½âO8¦Ùõ­á,HÇRMAJORZ
+CODE_SMELL
+l
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç°³¢8¡èÀ®á,HØRMAJORZ
+CODE_SMELL
+ksquid:S1854"7Remove this useless assignment to local variable "set".(ßÃõ¸8¡èÀ®á,HÙRMAJORZ
+CODE_SMELL

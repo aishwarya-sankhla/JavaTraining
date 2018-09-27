@@ -1,0 +1,22 @@
+package com.training;
+
+import org.apache.log4j.BasicConfigurator;
+
+import com.google.gson.Gson;
+
+public class Application {
+	public static void main(String[] args){ 
+		Gson obj = new Gson();
+		BasicConfigurator.configure();
+		
+		Movie diamond = new Movie(101, "Diamond");
+		String jsonRep = obj.toJson(diamond);
+
+		System.out.println(jsonRep);
+		
+		Movie capture = obj.fromJson(jsonRep, Movie.class);
+		
+		System.out.println(capture.getMovieId());
+		System.out.println(capture.getMovieName());
+	}
+}

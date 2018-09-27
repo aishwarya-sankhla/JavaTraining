@@ -1,0 +1,39 @@
+
+squid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(§›öù8¨±°¤á,HÛRMAJORZ
+CODE_SMELL
+l
+squid:S106."9Replace this use of System.out or System.err by a logger.(êûƒÖ8‰Â“¤á,HÌRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ8ö¯ß¢á,H†RMAJORZ
+CODE_SMELL
+vsquid:S18542"=Remove this useless assignment to local variable "mathsList".(Þæõ§þÿÿÿÿ8‹áÂ¤á,HãRMAJORZ
+CODE_SMELL
+Usquid:S21297"!Remove this "Boolean" constructor(çéÓ½8Ê¤á,HÒRMAJORZ
+CODE_SMELL
+gsquid:S14812".Remove this unused "mathsList" local variable.(Þæõ§þÿÿÿÿ8‹áÂ¤á,HâRMINORZ
+CODE_SMELL
+psquid:S18547"<Remove this useless assignment to local variable "studList".(çéÓ½8íõÓ¤á,HïRMAJORZ
+CODE_SMELL
+l
+squid:S106,"9Replace this use of System.out or System.err by a logger.(’éÇÆ8ó¦û£á,HÄRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(‚¡Õ¯ýÿÿÿÿ8íõÓ¤á,HíRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(î¦ãŠ8Ë“Ï¨á,HþRMAJORZ
+CODE_SMELL
+asquid:S14817"-Remove this unused "studList" local variable.(çéÓ½8íõÓ¤á,HîRMINORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(­¸¤Êúÿÿÿÿ8‰Â“¤á,HÍRMAJORZ
+CODE_SMELL
+Usquid:S21297"!Remove this "Boolean" constructor(çéÓ½8Ê¤á,HÓRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(äï”Øüÿÿÿÿ8¨±°¤á,HÚRMAJORZ
+CODE_SMELL
+Usquid:S21297"!Remove this "Boolean" constructor(çéÓ½8Ê¤á,HÔRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine="<This block of commented-out lines of code should be removed.(èõ¬·üÿÿÿÿ8‹áÂ¤á,HàRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(²²ç§üÿÿÿÿ8·žÔ¨á,H‹RMAJORZ
+CODE_SMELL

@@ -1,7 +1,0 @@
-package com.training;
-
-public class Address {
-	private String Address1;
-	private String Address2;
-	private long pincode;
-}
