@@ -1,0 +1,26 @@
+package com.training;
+
+import java.lang.reflect.*;
+
+public class Application {
+
+	public static void main(String[] args) {
+		Class<?> cls;
+		try {
+			cls = Class.forName("com.training.Movie");
+			Movie diamond = (Movie)cls.newInstance();
+			diamond.setMovieId(203);
+			diamond.setMovieName("titanic");
+			
+			System.out.println(diamond);
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
+		
+		
+		
+
+	}
+
+}
