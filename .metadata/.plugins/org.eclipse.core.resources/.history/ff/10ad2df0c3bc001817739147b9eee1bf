@@ -1,5 +1,0 @@
-
-public class Patient {
-	private int patientid;
-	private String patientName;
-}

@@ -1,0 +1,15 @@
+127.0.0.1 - - [28/Sep/2018:12:13:44 +0530] "GET / HTTP/1.1" 404 1073
+127.0.0.1 - - [28/Sep/2018:12:13:45 +0530] "GET /WebApplication/ HTTP/1.1" 404 1092
+127.0.0.1 - - [28/Sep/2018:12:14:50 +0530] "GET /WebApplication/first HTTP/1.1" 200 21
+127.0.0.1 - - [28/Sep/2018:12:18:45 +0530] "GET /WebApplication/ HTTP/1.1" 200 167
+127.0.0.1 - - [28/Sep/2018:12:18:54 +0530] "GET /WebApplication/first HTTP/1.1" 200 21
+127.0.0.1 - - [28/Sep/2018:12:27:46 +0530] "GET / HTTP/1.1" 404 1073
+127.0.0.1 - - [28/Sep/2018:12:27:47 +0530] "GET /WebApplication/ HTTP/1.1" 304 -
+127.0.0.1 - - [28/Sep/2018:12:28:26 +0530] "GET /WebApplication/first HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:12:30:39 +0530] "GET /WebApplication/first HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:12:30:39 +0530] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:12:30:55 +0530] "GET /WebApplication/ HTTP/1.1" 200 167
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:12:31:00 +0530] "GET /WebApplication/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:12:33:38 +0530] "GET /WebApplication/first HTTP/1.1" 200 348
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:12:33:43 +0530] "GET /WebApplication/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Sep/2018:12:36:42 +0530] "GET /WebApplication/first HTTP/1.1" 200 348

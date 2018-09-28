@@ -1,7 +1,0 @@
-package com.training;
-
-import java.util.Comparator;
-
-public class EmployeeNameComparator implements Comparator<T> {
-
-}
