@@ -1,0 +1,5 @@
+
+wsquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(†êÕÆHÝRBLOCKERZBUG
+wsquid:S2095)"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(†êÕÆHÞRBLOCKERZBUG
+osquid:S2095:"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰ÞHßRBLOCKERZBUG
+wsquid:S20958"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(†êÕÆHàRBLOCKERZBUG

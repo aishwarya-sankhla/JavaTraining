@@ -1,8 +1,0 @@
-package com.training;
-
-public class Quickstart {
-	
-	public String getMessage(){
-		return "Hello".toUpperCase();
-	}
-}

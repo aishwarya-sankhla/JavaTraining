@@ -1,0 +1,12 @@
+
+bsquid:S1989?"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ8ûä‡€â,H¨RMINORZVULNERABILITY
+Xsquid:S1989%"(Add a "try/catch" block for "getWriter".(ÏÚ‚´H‚RMINORZVULNERABILITY
+asquid:S19895"*Add a "try/catch" block for "parseDouble".(›ëÁ»8‡«±€â,H¬RMINORZVULNERABILITY
+bsquid:S1989?"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ8ûä‡€â,H©RMINORZVULNERABILITY
+lsquid:S1161#":Add the "@Override" annotation above this method signature(Ïû©ÖûÿÿÿÿHˆRMAJORZ
+CODE_SMELL
+gsquid:S1161+":Add the "@Override" annotation above this method signature(‹¨¯¿H‰RMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH…RINFOZ
+CODE_SMELL
+dsquid:S19891"(Add a "try/catch" block for "parseLong".(œúŒ¿øÿÿÿÿ8°÷íÿá,HœRMINORZVULNERABILITY

@@ -1,6 +1,0 @@
-package com.training.entity;
-
-public class Course {
-	private int courseId;
-	private String courseName;
-}

@@ -1,4 +1,0 @@
-db.url=jdbc:oracle:thin:@10.140.4.104:1578:training
-db.userName=training
-db.passWord=training2013
-db.driverClass=oracle.jdbc.driver.OracleDriver.class

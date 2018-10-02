@@ -817,3 +817,11 @@ Caused by: java.net.UnknownHostException: download.eclipse.org
 2018-09-27 17:27:25,232 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AC31846\Desktop\java\SecondProject\src\main\resources
 2018-09-27 17:27:25,233 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-09-27 17:27:25,233 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AC31846\Desktop\java\SecondProject\src\test\resources
+2018-10-01 10:03:47,561 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-01 10:03:47,583 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AC31846\Desktop\java\SecondProject\src\main\resources
+2018-10-01 10:03:47,585 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-01 10:03:47,585 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AC31846\Desktop\java\SecondProject\src\test\resources
+2018-10-02 09:44:36,570 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-02 09:44:36,582 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AC31846\Desktop\java\SecondProject\src\main\resources
+2018-10-02 09:44:36,583 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-02 09:44:36,583 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AC31846\Desktop\java\SecondProject\src\test\resources

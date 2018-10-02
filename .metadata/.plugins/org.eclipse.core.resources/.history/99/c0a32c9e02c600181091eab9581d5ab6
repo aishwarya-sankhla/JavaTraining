@@ -1,0 +1,23 @@
+package com.training;
+
+public class Contacts {
+	private long phoneNo;
+	
+	public Contacts(long phoneNo) {
+		super();
+		this.phoneNo = phoneNo;
+	}
+	public Contacts() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public long getPhoneNo() {
+		return phoneNo;
+	}
+	public void setPhoneNo(long phoneNo) {
+		this.phoneNo = phoneNo;
+	}
+	
+	
+}

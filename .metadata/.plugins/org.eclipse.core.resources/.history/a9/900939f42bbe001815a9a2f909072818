@@ -1,7 +1,0 @@
-package com.training;
-
-public class Customer {
-	private int custId;
-	private String custName;
-	
-}

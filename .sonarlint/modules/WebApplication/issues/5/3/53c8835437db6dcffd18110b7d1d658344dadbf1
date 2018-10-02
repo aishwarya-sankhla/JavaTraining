@@ -1,0 +1,25 @@
+
+`squid:S1989."$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿ8‰±¡÷á,H¨RMINORZVULNERABILITY
+q
+squid:S106#"9Replace this use of System.out or System.err by a logger.(÷×°Ðüÿÿÿÿ8ÍÑˆøá,HÂRMAJORZ
+CODE_SMELL
+ssquid:S1161":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ8‰±¡÷á,H©RMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿH†RINFOZ
+CODE_SMELL
+bsquid:S1989&"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ8ñ»Þ÷á,HºRMINORZVULNERABILITY
+`squid:S1989."$Add a "try/catch" block for "doGet".(®Ó‘ûÿÿÿÿÿ8‰±¡÷á,H§RMINORZVULNERABILITY
+bsquid:S1989&"&Add a "try/catch" block for "forward".(ÜÕˆêøÿÿÿÿ8ñ»Þ÷á,H»RMINORZVULNERABILITY
+csquid:S1135-"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH‡RINFOZ
+CODE_SMELL
+isquid:S1191"5Use classes from the Java API instead of Sun classes.(ÔƒºÒ8ñ»Þ÷á,H¹RMAJORZ
+CODE_SMELL
+nsquid:S1161,":Add the "@Override" annotation above this method signature(‹¨¯¿8‰±¡÷á,HªRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Õ²¸€øÿÿÿÿ8ñ»Þ÷á,H¼RMAJORZ
+CODE_SMELL
+•squid:UselessImportCheck"TRemove this unused import 'com.sun.corba.se.spi.protocol.RequestDispatcherRegistry'.(ÔƒºÒ8ñ»Þ÷á,H½RMINORZ
+CODE_SMELL
+q
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ú°Ù®ýÿÿÿÿ8ŸµŠøá,HÇRMAJORZ
+CODE_SMELL

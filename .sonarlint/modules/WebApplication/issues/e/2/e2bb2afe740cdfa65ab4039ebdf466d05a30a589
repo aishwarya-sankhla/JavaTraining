@@ -1,0 +1,26 @@
+
+‹squid:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(ıÀñùÿÿÿÿH»RMINORZ
+CODE_SMELL
+nsquid:UselessImportCheck"4Remove this unused import 'com.training.entity.DAO'.(ÇæÈ‘HÄRMINORZ
+CODE_SMELL
+Ysquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÍRMINORZVULNERABILITY
+‚squid:UselessImportCheck	"<Remove this unused import 'com.training.utils.DbConnection'.(åêöÙùÿÿÿÿ8äõşá,HÖRMINORZ
+CODE_SMELL
+Xsquid:S1148p"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÊRMINORZVULNERABILITY
+Xsquid:S1148N"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÈRMINORZVULNERABILITY
+Ysquid:S1148¢"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÎRMINORZVULNERABILITY
+osquid:S2095;"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰ŞH½RBLOCKERZBUG
+nsquid:S2259t"CA "NullPointerException" could be thrown; "pstmt" is nullable here.(üÒ‡¿ÿÿÿÿÿHÃRMAJORZBUG
+Xsquid:S1148."#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÆRMINORZVULNERABILITY
+Xsquid:S1148H"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÇRMINORZVULNERABILITY
+Xsquid:S1148X"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÉRMINORZVULNERABILITY
+Xsquid:S1148("#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÅRMINORZVULNERABILITY
+osquid:S2259 "CA "NullPointerException" could be thrown; "pstmt" is nullable here.(üÒ‡¿ÿÿÿÿÿHÁRMAJORZBUG
+Xsquid:S1148v"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHËRMINORZVULNERABILITY
+psquid:S2095”"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰ŞH¼RBLOCKERZBUG
+squid:S1488—"]Immediately return this expression instead of assigning it to the temporary variable "movie".(µğÌ­úÿÿÿÿH¿RMINORZ
+CODE_SMELL
+xsquid:S2095‚"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(†êÕÆH¾RBLOCKERZBUG
+nsquid:S2259,"CA "NullPointerException" could be thrown; "pstmt" is nullable here.(üÒ‡¿ÿÿÿÿÿHÂRMAJORZBUG
+Ysquid:S1148‡"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHÌRMINORZVULNERABILITY
+nsquid:S2259L"CA "NullPointerException" could be thrown; "pstmt" is nullable here.(üÒ‡¿ÿÿÿÿÿHÀRMAJORZBUG

@@ -1,0 +1,28 @@
+
+_squid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ş‡¢ã,HƒRMINORZVULNERABILITY
+l
+squid:S106""9Replace this use of System.out or System.err by a logger.(¤ãŠ»8Ş‡¢ã,HÿRMAJORZ
+CODE_SMELL
+q
+squid:S106"9Replace this use of System.out or System.err by a logger.(ò‹Àòøÿÿÿÿ8Šå›ã,HŞRMAJORZ
+CODE_SMELL
+p"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(°Ó÷8Ş‡¢ã,HşRCRITICALZ
+CODE_SMELL
+_squid:S1148,"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ş‡¢ã,H„RMINORZVULNERABILITY
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ş‡¢ã,H‚RMINORZVULNERABILITY
+l
+squid:S106#"9Replace this use of System.out or System.err by a logger.(…¨óÔ8Ş‡¢ã,H€RMAJORZ
+CODE_SMELL
+_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8²—ÜŸã,HıRMINORZVULNERABILITY
+l
+squid:S106!"9Replace this use of System.out or System.err by a logger.(áŒ8Õú» ã,HüRMAJORZ
+CODE_SMELL
+l
+squid:S106*"9Replace this use of System.out or System.err by a logger.(¨ß±‘8Ş‡¢ã,HRMAJORZ
+CODE_SMELL
+l
+squid:S1061"9Replace this use of System.out or System.err by a logger.(•‡â8æùÏ¢ã,H¥RMAJORZ
+CODE_SMELL
+jsquid:S11353"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8„ÎÑ¢ã,H¨RINFOZ
+CODE_SMELL
+_squid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8„ÎÑ¢ã,H©RMINORZVULNERABILITY
