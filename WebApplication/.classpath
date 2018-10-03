@@ -38,5 +38,7 @@
 	<classpathentry kind="lib" path="C:/Apache Software Foundation/Tomcat 9.0/lib/tomcat-util-scan.jar"/>
 	<classpathentry kind="lib" path="C:/Apache Software Foundation/Tomcat 9.0/lib/tomcat-websocket.jar"/>
 	<classpathentry kind="lib" path="C:/Apache Software Foundation/Tomcat 9.0/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AC31846/Downloads/standard-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/AC31846/Downloads/jstl-1.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

@@ -171,6 +171,39 @@ public class ContactDaoImpl implements ContactDao{
 		contact.setContactList(contactList);
 		return contact;
 	}
+//	public List<ContactDetails> displayByName(String name) throws SQLException {
+//		String sql="select * from contactdetails natural join contacts where name=?";
+//		String sql1 = "select * from contacts where contactid=?";
+//		PreparedStatement psmst = con.prepareStatement(sql);
+//		psmst.setString(1, name);
+//		ResultSet rs = psmst.executeQuery();
+//		ContactDetails contact = null;
+//		List<ContactDetails> contactList =new ArrayList<>();
+//		while(rs.next()){
+//			List<String> numberList=new ArrayList<>(); 
+//			
+//			int id = rs.getInt("contactid");
+//			String contactName = rs.getString("name");
+//			String email = rs.getString("email");
+//			String category = rs.getString("relation");
+//			numberList.add(rs.getString("phone"));
+//			contact = new ContactDetails(contactName, email, category, id);
+//			
+//
+//			if(contactList.contains(contact)){
+//				for(ContactDetails cntct:contactList){
+//					if(cntct.equals(contact))
+//						cntct.addToList(numberList.get(0));
+//				}
+//			}else{
+//				contactList.add(contact);
+//		
+//			}
+//			
+//		}
+//		return contactList;
+//	}
+//		
 
 
 	@Override

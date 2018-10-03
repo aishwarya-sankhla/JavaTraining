@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+.head{
+	height:300px;
+}
+img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+</style>
+</head>
+<body class="head">
+	<div>
+		<img alt="film" src="Images/film.png">
+		<h1>Rotten Tomatoes Review</h1>
+</body>
+</html>

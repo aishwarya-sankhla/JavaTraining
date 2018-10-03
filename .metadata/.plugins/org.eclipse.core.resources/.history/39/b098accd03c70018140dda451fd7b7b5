@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<img alt="film" src="Images/film.png">
+		<h1>Rotten Tomatoes Review</h1>
+</body>
+</html>

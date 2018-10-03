@@ -59,4 +59,14 @@
     <servlet-name>AddMovieServlet</servlet-name>
     <url-pattern>/addmovie</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Lifecycle</display-name>
+    <servlet-name>Lifecycle</servlet-name>
+    <servlet-class>com.training.Lifecycle</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Lifecycle</servlet-name>
+    <url-pattern>/lifecycle</url-pattern>
+  </servlet-mapping>
 </web-app>

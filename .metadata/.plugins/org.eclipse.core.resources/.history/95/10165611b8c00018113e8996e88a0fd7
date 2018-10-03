@@ -1,8 +1,0 @@
-
-public class Application {
-	public static void main(String[] args) {
-		MyArrayList obj = new MyArrayList();
-		System.out.println(obj.add(21));
-		
-	}
-}

@@ -11,7 +11,7 @@ public class Application {
 		System.out.println(DbConnection.getOracleConnection());
 		
 		ContactDao dao = new ContactDaoImpl();
-		int key =4;
+		int key =2;
 		switch(key){
 		case 1:
 			ContactDetails sam = new ContactDetails("sam", "friends");
@@ -31,8 +31,8 @@ public class Application {
 		case 2:
 			try {
 				System.out.println(dao.displayByName("sam"));
-				System.out.println(dao.displayContactByCategory("friends"));
-				System.out.println(dao.displayContacts());
+//				System.out.println(dao.displayContactByCategory("friends"));
+//				System.out.println(dao.displayContacts());
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}

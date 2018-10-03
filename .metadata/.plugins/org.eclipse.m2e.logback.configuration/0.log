@@ -825,3 +825,25 @@ Caused by: java.net.UnknownHostException: download.eclipse.org
 2018-10-02 09:44:36,582 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AC31846\Desktop\java\SecondProject\src\main\resources
 2018-10-02 09:44:36,583 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-10-02 09:44:36,583 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AC31846\Desktop\java\SecondProject\src\test\resources
+2018-10-03 11:35:28,292 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:FirstMaven:0.0.1-SNAPSHOT @ C:\Users\AC31846\Desktop\java\FirstMaven\pom.xml.
+2018-10-03 11:35:28,292 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:FirstMaven:0.0.1-SNAPSHOT @ C:\Users\AC31846\Desktop\java\FirstMaven\pom.xml.
+2018-10-03 11:35:33,560 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-03 11:35:33,621 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-03 11:35:38,820 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:FirstMaven:0.0.1-SNAPSHOT @ C:\Users\AC31846\Desktop\java\FirstMaven\pom.xml.
+2018-10-03 11:35:38,821 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-03 11:35:38,825 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-03 11:35:40,197 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:SecondProject:0.0.1-SNAPSHOT @ C:\Users\AC31846\Desktop\java\SecondProject\pom.xml.
+2018-10-03 11:35:40,976 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-03 11:35:40,980 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-03 11:35:40,981 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-03 11:35:40,984 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-03 12:00:03,972 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:FirstMaven:0.0.1-SNAPSHOT @ C:\Users\AC31846\Desktop\java\FirstMaven\pom.xml.
+2018-10-03 12:00:04,186 [Worker-6] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:SecondProject:0.0.1-SNAPSHOT @ C:\Users\AC31846\Desktop\java\SecondProject\pom.xml.
+2018-10-03 12:00:08,667 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-03 12:00:08,675 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-03 12:00:08,677 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-03 12:00:08,681 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-03 12:00:11,185 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:00:11,186 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AC31846\Desktop\java\SecondProject\src\main\resources
+2018-10-03 12:00:11,186 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-03 12:00:11,187 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\AC31846\Desktop\java\SecondProject\src\test\resources
