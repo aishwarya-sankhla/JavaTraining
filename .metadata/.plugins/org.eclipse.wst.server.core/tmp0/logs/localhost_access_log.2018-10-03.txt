@@ -106,3 +106,14 @@
 127.0.0.1 - - [03/Oct/2018:17:42:20 +0530] "GET /MovieRating/Images/film.png HTTP/1.1" 304 -
 127.0.0.1 - - [03/Oct/2018:17:42:33 +0530] "GET /MovieRating/ HTTP/1.1" 200 1353
 127.0.0.1 - - [03/Oct/2018:17:42:33 +0530] "GET /MovieRating/Images/film.png HTTP/1.1" 304 -
+127.0.0.1 - - [03/Oct/2018:17:52:09 +0530] "GET / HTTP/1.1" 404 1073
+127.0.0.1 - - [03/Oct/2018:17:52:10 +0530] "GET /MovieRating/Welcome.jsp HTTP/1.1" 200 1355
+127.0.0.1 - - [03/Oct/2018:17:52:10 +0530] "GET /MovieRating/Images/film.png HTTP/1.1" 304 -
+127.0.0.1 - - [03/Oct/2018:17:54:20 +0530] "GET /MovieRating/Welcome.jsp HTTP/1.1" 200 1361
+127.0.0.1 - - [03/Oct/2018:17:54:20 +0530] "GET /MovieRating/Images/film.png HTTP/1.1" 304 -
+127.0.0.1 - - [03/Oct/2018:17:56:26 +0530] "GET / HTTP/1.1" 404 1073
+127.0.0.1 - - [03/Oct/2018:17:56:27 +0530] "GET /MovieRating/Footer.jsp HTTP/1.1" 200 308
+127.0.0.1 - - [03/Oct/2018:17:57:05 +0530] "GET /MovieRating/Welcome.jsp HTTP/1.1" 200 1359
+127.0.0.1 - - [03/Oct/2018:17:57:05 +0530] "GET /MovieRating/Images/film.png HTTP/1.1" 304 -
+127.0.0.1 - - [03/Oct/2018:17:57:30 +0530] "GET /MovieRating/Welcome.jsp HTTP/1.1" 200 1375
+127.0.0.1 - - [03/Oct/2018:17:57:30 +0530] "GET /MovieRating/Images/film.png HTTP/1.1" 304 -

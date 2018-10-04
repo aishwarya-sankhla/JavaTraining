@@ -1,6 +1,7 @@
 package com.training;
 
 import java.sql.SQLException;
+import java.util.HashMap;
 import java.util.List;
 
 public interface ContactDao {
@@ -12,4 +13,5 @@ public interface ContactDao {
 	public int editContact(int contactId,String columnName,String updatedValue) throws SQLException;
 	public int editPhone(String old,String phone) throws SQLException;
 	public ContactDetails displayByName(String name) throws SQLException;
+	public HashMap<String, Integer> displayCategories() throws SQLException;
 }

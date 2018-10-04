@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import com.training.ContactDao;
@@ -14,7 +15,7 @@ import com.training.utils.DbConnection;
 
 public class ContactDaoImpl implements ContactDao{
 	
-	private final int contactId=0;
+	
 	private Connection con;
 	
 	
@@ -59,7 +60,7 @@ public class ContactDaoImpl implements ContactDao{
 		return rowAdded;
 	}
 
-
+// check   
 
 	@Override
 	public int deleteContact(int contactId) throws SQLException {
@@ -227,6 +228,21 @@ public class ContactDaoImpl implements ContactDao{
 		int rowUpdated;
 		rowUpdated = psmst.executeUpdate();
 		return rowUpdated;
+	}
+
+
+	@Override
+	public HashMap<String, Integer> displayCategories() throws SQLException {
+		String sql = "select relation,count(*) from contactdetails group by relation";
+		PreparedStatement psmst = con.prepareStatement(sql);
+		HashMap<String, Integer> contactList= new HashMap<>();
+		ResultSet rs = psmst.executeQuery();
+		while(rs.next()){
+			String category = rs.getString("relation");
+			int count = rs.getInt("count(*)");
+			contactList.put(category, count);
+		}
+		return contactList;
 	}
 
 	

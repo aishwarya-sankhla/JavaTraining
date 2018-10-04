@@ -1,0 +1,12 @@
+package com.training.impl;
+
+
+
+public class CustomerDaoImpl {
+
+	public CustomerDaoImpl() {
+		super();
+		con=DbConnection.getOracleConnection();
+	}
+	
+}

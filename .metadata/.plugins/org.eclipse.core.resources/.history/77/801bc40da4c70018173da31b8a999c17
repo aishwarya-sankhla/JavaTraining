@@ -1,0 +1,35 @@
+package com.training.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.training.bean.Customer;
+import com.training.utils.DbConnection;
+
+public class CustomerDaoImpl implements CustomerDao{
+
+	private Connection con;
+	public CustomerDaoImpl() {
+		super();
+		con=DbConnection.getOracleConnection();
+	}
+	@Override
+	public int AddCustomer(Customer cust) {
+		String sql = "insert into customeras values(?,?,?)";
+		PreparedStatement psmst = null;
+		int rowAdded;
+		try {
+			psmst=con.prepareStatement(sql);
+			psmst.setLong(1, cust.getCustomerId());
+			psmst.setString(2, cust.getCustomerName());
+			psmst.setLong(3, cust.getMobileNumber());
+			rowAdded=psmst.executeUpdate();
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return 0;
+	}
+	
+}

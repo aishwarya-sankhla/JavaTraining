@@ -9,6 +9,7 @@
 </head>
 <body>
 <c:out value="Designed by Rotten Tomatoes Inc"></c:out>
-<c:out value="${applicationScope.copyright}"></c:out>
+<c:set var="copyRight" value="${param.copyright}" scope="application"/>
+<%=application.getInitParameter("copyright") %>
 </body>
 </html>

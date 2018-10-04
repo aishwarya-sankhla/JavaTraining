@@ -1,0 +1,15 @@
+package com.training.impl;
+
+import java.sql.Connection;
+
+import com.training.utils.DbConnection;
+
+public class CustomerDaoImpl {
+
+	private Connection con;
+	public CustomerDaoImpl() {
+		super();
+		con=DbConnection.getOracleConnection();
+	}
+	
+}

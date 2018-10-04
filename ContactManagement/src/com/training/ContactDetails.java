@@ -60,7 +60,7 @@ public class ContactDetails {
 
 	@Override
 	public String toString() {
-		return "ContactDetails [name=" + name + ", email=" + email + ", relation=" + relation + ", contactList="
+		return "[name=" + name + ", email=" + email + ", relation=" + relation + ", contactList="
 				+ contactList + "]\n";
 	}
 	
