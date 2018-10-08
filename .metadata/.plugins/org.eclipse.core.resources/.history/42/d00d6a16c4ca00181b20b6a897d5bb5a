@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Example</title>
+</head>
+<body>
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+$function(){
+	$get("http://localhost:8080/REST_webService/rest/quick",function(resp)){
+		$("#msg").html(resp);
+	});
+});
+</script>
+</body>
+</html>

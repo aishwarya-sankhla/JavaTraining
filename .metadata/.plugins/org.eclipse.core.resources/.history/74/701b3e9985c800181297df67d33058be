@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="DemoServlet">
+	
+		<select name="itemName">
+			<option value="books">Books</option>
+			<option value="textiles">Textiles</option>
+			<option value="fashion">Fashion</option>
+			<option value="sweets">Sweets</option>
+		</select>
+		
+		<input type="submit" value="Show">
+		<label>Color</label>
+		<input type="color" value="#ff0000">
+		
+	</form>
+</body>
+</html>

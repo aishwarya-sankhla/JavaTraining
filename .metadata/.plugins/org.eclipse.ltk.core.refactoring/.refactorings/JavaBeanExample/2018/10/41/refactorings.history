@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.training.bean&apos; to &apos;REST_webService/src&apos;&#x0D;&#x0A;- Original project: &apos;JavaBeanExample&apos;&#x0D;&#x0A;- Destination element: &apos;REST_webService/src&apos;&#x0D;&#x0A;- Original element: &apos;JavaBeanExample/src/com.training.bean&apos;" description="Copy package" destination="=REST_webService/src" element1="/src&lt;com.training.bean" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1538987917483" version="1.0"/>
+</session>

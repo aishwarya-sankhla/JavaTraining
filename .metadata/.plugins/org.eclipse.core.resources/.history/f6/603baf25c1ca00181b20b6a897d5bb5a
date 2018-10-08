@@ -1,0 +1,11 @@
+package com.training.resources;
+
+import javax.ws.rs.Path;
+import javax.ws.rs.core.*;
+
+@Path("/quick")
+public class QuickStart {
+	public String getMessage(){
+		return "You have configured JERSEY Properly";
+	}
+}

@@ -6,6 +6,8 @@ import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.sql.*;
+import javax.naming.InitialContext;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -13,6 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import com.sun.xml.internal.bind.CycleRecoverable.Context;
 import com.training.bean.Customer;
 import com.training.impl.CustomerDao;
 import com.training.impl.CustomerDaoImpl;
@@ -31,15 +34,27 @@ public class CustomerServlet extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
     }
+    Connection con;
+	@Override
+	public void init() throws ServletException {
+		try{
+		InitialContext ctx = new InitialContext();
+		DataSource datasource = (DataSource) ctx.lookup("java/comp/env/jdbc/ds1");
+		con = datasource.getConnection();
+		}
+		catch (Exception e) {
+			
+		}
+	}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		ClassLoader clsLoader = Thread.currentThread().getContextClassLoader();
-		
-		InputStream stream = clsLoader.getResourceAsStream("jdbc.properties");
-		Connection con = DbConnection.getOracleConnection(stream);
+//		ClassLoader clsLoader = Thread.currentThread().getContextClassLoader();
+//		
+//		InputStream stream = clsLoader.getResourceAsStream("jdbc.properties");
+//		Connection con = DbConnection.getOracleConnection(stream);
 		RequestDispatcher dispatcher = null;
 		
 		HttpSession session =request.getSession();
