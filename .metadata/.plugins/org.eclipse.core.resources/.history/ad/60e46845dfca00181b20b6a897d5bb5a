@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery1-7-2.js"></script>
+
+</head>
+<body>
+<form action="http://localhost:8080/REST_webService/rest/add" method="post">
+	<label for="customerId"></label>
+	<input type="text" name="customerId" id="customerId">
+	<label for="customerName"></label>
+	<input type="text" name="customerName" id="customerName">
+	<label for="mobileNumber"></label>
+	<input type="text" name="mobileNumber" id="mobileNumber">
+	
+	<input type="submit" value="Submit">
+</form>
+<div id="msg"></div>
+</body>
+</html>

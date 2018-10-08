@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\AC31846\Desktop\java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\AC31846\Desktop\java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\REST_webService" path="/REST_webService" reloadable="true" source="org.eclipse.jst.jee.server:REST_webService"/><Context docBase="C:\Users\AC31846\Desktop\java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTClient" path="/RESTClient" reloadable="true" source="org.eclipse.jst.jee.server:RESTClient"/></Host>
+      <Context docBase="C:\Users\AC31846\Desktop\java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\AC31846\Desktop\java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\REST_webService" path="/REST_webService" reloadable="true" source="org.eclipse.jst.jee.server:REST_webService"/><Context docBase="C:\Users\AC31846\Desktop\java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RESTClient" path="/RESTClient" reloadable="true" source="org.eclipse.jst.jee.server:RESTClient"/><Context docBase="C:\Users\AC31846\Desktop\java\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RechargeAssignment" path="/RechargeAssignment" reloadable="true" source="org.eclipse.jst.jee.server:RechargeAssignment"/></Host>
     </Engine>
   </Service>
 </Server>

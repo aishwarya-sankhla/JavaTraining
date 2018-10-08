@@ -20,4 +20,23 @@ public class CustomerDetails {
 	public static HashMap<Long, Customer> getAllCustomers(){
 		return custList;
 	}
+	
+	public static String AddCustomer(Customer cust) {
+		String message = "Added";
+		Customer result = (Customer)custList.put(cust.getCustomerId(), cust);
+		if(result!=null){
+			message="Replaced";
+		}
+		return message;
+	}
+	
+	public static String removeCustomer(long key){
+		Customer cust=custList.remove(key);
+		return cust.getCustomerName();
+	}
+	
+	public static String updateMobileNumber(Customer cust,long key){
+		custList.put(key,cust);
+		return cust.getCustomerName()+ "Number Changed to "+cust.getMobileNumber();
+	}
 }
