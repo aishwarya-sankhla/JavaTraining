@@ -1,8 +1,0 @@
-package com.training;
-
-public class ContactDetails {
-	private String name;
-	private String email;
-	private String relation;
-	
-}

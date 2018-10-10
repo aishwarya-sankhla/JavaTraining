@@ -1,0 +1,30 @@
+package com.training.resources;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+
+import com.training.BloodDonor;
+import com.training.dao.BloodDaoImpl;
+
+@Path("/donor")
+public class BloodDonorResources {
+	BloodDaoImpl dao;
+	public BloodDonorResources() {
+		super();
+		dao = new BloodDaoImpl();
+	}
+
+	@GET
+	@Path("findByGroup/{group}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response displayByGroup(@PathParam("group") String bloodGroup){
+		return Response.status(200).entity(dao.displayByGroup(bloodGroup)).build();
+	}
+	
+}

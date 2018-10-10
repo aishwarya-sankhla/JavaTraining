@@ -1,6 +1,0 @@
-package com.training;
-
-public class ContactDao {
-	public int addContact(ContactDetails person,Contacts phone);
-	
-}

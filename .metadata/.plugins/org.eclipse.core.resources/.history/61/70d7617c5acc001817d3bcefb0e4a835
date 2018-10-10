@@ -1,0 +1,10 @@
+package com.trining.apps;
+
+public class MyClientApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

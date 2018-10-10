@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery1-7-2.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("#addBtn").on('click',function(){
+		var id = $("#customerId").val();
+		var name = $("#customerName").val();
+		var mobile = $("#mobileNumber").val();
+		
+		var obj = {"customerId":id,"customerName":name,"mobileNumber":mobile};
+		
+		$.ajax({
+			url:"http://localhost:8080/REST_webService/rest/customer/addAsJson",
+			type:"POST",
+			dataType:"html",
+			data:JSON.stringify(obj),
+			contentType:"application/json; charset=utf-8",
+			success:function(data,textStatus,jqXHR){
+				console.log(data);
+				$("#msg").text(data);
+			},
+			error:function(jqXHR,textStatus,errorThrown){
+				console.log(errorThrown);
+			}
+		})
+		
+	});
+});
+</script>
+</head>
+<body>
+<!-- <form  method="post" action="http://localhost:8080/REST_webService/rest/customer/add"> -->
+<form >
+	<label for="customerId">Customer Id</label>
+	<input type="text" name="customerId" id="customerId">
+	<label for="customerName">Customer Name</label>
+	<input type="text" name="customerName" id="customerName">
+	<label for="mobileNumber">Mobile Number</label>
+	<input type="text" name="mobileNumber" id="mobileNumber">
+	
+	<input type="button" value="Add" id="addBtn">
+</form>
+<div id="msg"></div>
+</body>
+</html>

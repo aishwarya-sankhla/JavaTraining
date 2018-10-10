@@ -5,7 +5,7 @@ import java.util.Properties;
 import java.io.*;
 
 public class DbConnection {
-	public static Connection getOracleConnection(InputStream stream) {
+	public static Connection getConnection(InputStream stream) {
 		Connection com = null;
 		
 		try {

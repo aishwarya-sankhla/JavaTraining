@@ -1,0 +1,5 @@
+package com.training.connection;
+
+public class DbConnection {
+
+}

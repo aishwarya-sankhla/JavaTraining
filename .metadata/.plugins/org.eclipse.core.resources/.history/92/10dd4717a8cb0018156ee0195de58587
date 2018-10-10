@@ -1,0 +1,77 @@
+package com.training.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.training.BloodDonor;
+
+public class BloodDaoImpl implements BloodDao{
+	
+	private Connection con;
+	
+	public BloodDaoImpl(Connection con) {
+		super();
+		this.con=con;
+	}
+
+	@Override
+	public List<BloodDonor> displayByLocation(String location) {
+		String sql = "select * from bloodash where location=?";
+		PreparedStatement psmst = null;
+		List<BloodDonor> donorList = new ArrayList<>();
+		try {
+			psmst = con.prepareStatement(sql);
+			psmst.setString(1, location);
+			ResultSet rs = psmst.executeQuery();
+			
+			while(rs.next()){
+				String donorName = rs.getString("name");
+				String bloodGroup = rs.getString("bloodgroup");
+				String donorlocation = rs.getString("location");
+				int donation = rs.getInt("donation");
+				long mobileNumber = rs.getLong("mobileNumber");
+				BloodDonor donor = new BloodDonor(donorName, bloodGroup, donorlocation, donation, mobileNumber);
+				donorList.add(donor);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return donorList;
+	}
+
+	@Override
+	public List<BloodDonor> displayByGroup(String group) {
+		String sql = "select * from bloodash where bloodgroup=?";
+		PreparedStatement psmst = null;
+		List<BloodDonor> donorList = new ArrayList<>();
+		try {
+			psmst = con.prepareStatement(sql);
+			psmst.setString(1, group);
+			ResultSet rs = psmst.executeQuery();
+			
+			while(rs.next()){
+				String donorName = rs.getString("name");
+				String bloodGroup = rs.getString("bloodgroup");
+				String donorlocation = rs.getString("location");
+				int donation = rs.getInt("donation");
+				long mobileNumber = rs.getLong("mobileNumber");
+				BloodDonor donor = new BloodDonor(donorName, bloodGroup, donorlocation, donation, mobileNumber);
+				donorList.add(donor);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return donorList;
+	}
+
+	@Override
+	public int addDonor(BloodDonor donor) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

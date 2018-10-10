@@ -1,0 +1,26 @@
+package com.training.connection;
+
+import java.io.InputStream;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.sql.DataSource;
+
+public class DbConnection {
+	Connection con;
+	public  Connection getConnection(InputStream stream) {
+		try {
+			InitialContext ctx = new InitialContext();
+			DataSource datasource = (DataSource) ctx.lookup("java/comp/env/jdbc/ds1");
+			con = datasource.getConnection();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} catch (NamingException e) {
+			e.printStackTrace();
+		}
+		return con;
+	}
+	
+}

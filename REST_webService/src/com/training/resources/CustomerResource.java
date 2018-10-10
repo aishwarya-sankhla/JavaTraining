@@ -37,11 +37,8 @@ public class CustomerResource {
 	@Path("json")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getCustomerAsJSon(){
-		Customer cust = new Customer(101, "Sam", 895234);
 		
-		HashMap<Integer, Customer> custList = new HashMap<>();
-		custList.put(1, cust);
-		return Response.status(200).entity(custList).build();
+		return Response.status(200).entity(CustomerDetails.getAllCustomers()).build();
 	}
 	
 	
@@ -71,5 +68,14 @@ public class CustomerResource {
 	@Consumes(MediaType.APPLICATION_JSON)
 	public String updateMobileNumber(Customer cust,@QueryParam("custId") long customerId){
 		return CustomerDetails.updateMobileNumber(cust,customerId);
+	}
+	
+	@POST
+	@Path("addAsJson")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public String addCustomer(Customer cust){
+		
+		CustomerDetails.AddCustomer(cust);
+		return cust.toString();
 	}
 }

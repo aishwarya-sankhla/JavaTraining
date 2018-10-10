@@ -1,9 +1,0 @@
-package com.training;
-
-public class ContactDetails {
-	private long contactId;
-	private String name;
-	private String email;
-	private String relation;
-	
-}

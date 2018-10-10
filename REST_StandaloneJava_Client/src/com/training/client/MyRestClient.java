@@ -21,7 +21,10 @@ public class MyRestClient {
 //		System.out.println(delResponse);
 		
 		Customer cust = new Customer(102,"John",122111);
-		Response updateResp = target.path("customer/update").queryParam("custId", 102).request().put(Entity.entity(cust, MediaType.APPLICATION_JSON));
-		System.out.println(updateResp);
+//		Response updateResp = target.path("customer/update").queryParam("custId", 102).request().put(Entity.entity(cust, MediaType.APPLICATION_JSON));
+//		System.out.println(updateResp);
+		
+		Response resp =target.path("customer/addAsJson").request().post(Entity.entity(cust,MediaType.APPLICATION_JSON));
+		System.out.println(resp.readEntity(String.class));
 	}
 }
