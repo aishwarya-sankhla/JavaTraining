@@ -1,0 +1,12 @@
+package com.training.apps;
+
+import com.training.jetAirways.AvailabilityImplService;
+
+public class AirwaysClient {
+
+	public static void main(String[] args) {
+		AvailabilityImplService jetAirways= new AvailabilityImplService();
+		System.out.println(jetAirways.getAvailabilityImplPort().checkAvailablity("Bangalore", "Delhi"));
+	}
+
+}

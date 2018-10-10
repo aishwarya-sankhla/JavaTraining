@@ -1,0 +1,5 @@
+package com.trining.doamin;
+
+public class Request {
+
+}

@@ -1,0 +1,29 @@
+package com.trining.async.clients;
+
+
+import javax.xml.ws.Response;
+
+import examples.webservices.async.DonationRequest;
+import examples.webservices.async.DonationRequestServiceService;
+
+public class MyAsyncClient {
+
+	public static void main(String[] args) {
+		
+		DonationRequestServiceService req = new DonationRequestServiceService();
+		DonationRequest proxy = req.getDonationRequestServicePort();
+		Response resp = proxy.getRequestAsync("apos");
+		
+		while(resp.isDone()){
+			try{
+				System.out.println("Waiting for response");
+				Thread.sleep(3000);
+				System.out.println(resp.get());
+			}catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+}

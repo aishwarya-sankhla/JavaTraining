@@ -1,0 +1,7 @@
+package com.training.ifaces;
+
+import java.util.List;
+
+public interface Availability<T> {
+	public List<T> checkAvailablity(String source,String destination);
+}

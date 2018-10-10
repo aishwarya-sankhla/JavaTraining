@@ -1,0 +1,7 @@
+package com.training.services;
+
+import com.training.ifaces.Availability;
+
+public class AvailabilityImpl implements Availability<T> {
+
+}

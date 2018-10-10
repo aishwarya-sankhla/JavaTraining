@@ -1,0 +1,5 @@
+package com.trining.services;
+
+public class DonationRequestService {
+
+}

@@ -1,0 +1,10 @@
+package com.trining.async.clients;
+
+public class MyAsyncClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

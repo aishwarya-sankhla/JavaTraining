@@ -1,0 +1,15 @@
+package com.trining.ifaces;
+
+import java.util.List;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+import com.trining.doamin.BloodDonor;
+import com.trining.doamin.Request;
+
+@WebService
+public interface DonationRequest {
+	@WebMethod
+	public BloodDonor getRequest(String bidGroup);
+}

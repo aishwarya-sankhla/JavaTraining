@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Bindings.xml&apos; to &apos;JAX_WSClient/src&apos;&#x0D;&#x0A;- Original project: &apos;JAX_WSClient&apos;&#x0D;&#x0A;- Destination element: &apos;JAX_WSClient/src&apos;&#x0D;&#x0A;- Original element: &apos;Bindings.xml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src" element1="Bindings.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1539165027888" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,5 @@
+package com.trining.ifaces;
+
+public interface DonationRequest {
+
+}
