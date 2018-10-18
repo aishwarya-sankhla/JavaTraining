@@ -1,8 +1,0 @@
-package com.training.impl;
-
-import com.training.bean.Customer;
-
-public interface CustomerDao {
-	public int AddCustomer(Customer cust);
-	
-}

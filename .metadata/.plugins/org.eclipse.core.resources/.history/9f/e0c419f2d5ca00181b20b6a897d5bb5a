@@ -1,6 +1,0 @@
-package com.training.resources;
-
-import com.training.bean.*;
-public class CustomerResource {
-
-}
